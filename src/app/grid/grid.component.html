@@ -1,0 +1,6 @@
+<div class="grid">
+    <div class="row" *ngFor="let rows of dataService.gridData">
+      <div class="cell" [ngStyle]="{'background-color': (cell) ? colors.ALIVE : colors.DEAD}" *ngFor="let cell of rows">
+      </div>
+    </div>
+  </div>

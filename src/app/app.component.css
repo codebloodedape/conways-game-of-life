@@ -1,0 +1,82 @@
+.overlay {
+    color: yellow;
+    background: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-container {
+    color: #e2cb00;
+    text-align: center;
+    margin: 30px;
+}
+
+.header {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+.section {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+.pattern-list {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.pattern-item {
+    background: #e2cb00;
+    width: 200px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    font-family: Lucida Console;
+    cursor: pointer;
+}
+
+.pattern-item:hover {
+    background: #bdaa03;
+}
+
+.grid-container {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    display: block;
+    cursor: pointer;
+}
+
+.wiki-container {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.wikis {
+    color: #e2cb00;
+    text-align: justify;
+    line-height: 1.6;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -17px;
+    overflow-y: scroll;
+}
+
+.instruction {
+    color: #4CAF50;
+    text-align: center;
+}

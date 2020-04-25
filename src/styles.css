@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Lucida Console;
+    background: black;
+  }
+
+  /* @media only screen and (max-width: 1026px) {
+    body {
+        display: none;
+    }
+  } */

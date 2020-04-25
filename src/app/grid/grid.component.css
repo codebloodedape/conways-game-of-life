@@ -1,0 +1,19 @@
+.grid {
+    height: 500px;
+    width: 500px;
+    margin: 0px auto;
+}
+
+.row {
+    position: relative;
+    float: left;
+    clear: both;
+    width: 500px;
+    height: 5px;
+}
+
+.cell {
+    float: left;
+    width: 5px;
+    height: 5px;
+}
